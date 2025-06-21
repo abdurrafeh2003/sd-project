@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.nav{
+    background-color: rgb(195, 195, 195);
+    box-shadow: 0px -20px rgba(0,0,0.6) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    margin-top: 0%;
+}
+.img_nav{
+    display: flex;
+}
+#att_nav{
+    display: flex;
+    padding-right: 20%;
+}
+#att_nav li{
+    color: black;
+    list-style: none;
+    padding-left: 20px;
+    
+}
+#att_nav li a{
+    color: black;
+    text-decoration: none;
+    font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
