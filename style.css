@@ -1,18 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     width: 100%;
     margin: 0;
+    padding: 0;
 }
+.section-p1 {
+    padding-right: 80px;
+padding-left: 80px;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.fe-box{
+      width: 150px;
+text-align: center;
+padding: 25px 15px;
+box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+border: 1px solid #cce7d0;
+border-radius: 20px;
+}
+.fe-img{
+    width: 152px;
+margin-bottom: 15px;
+}
+.fe-txt{
+     font-family: "Gruppo", sans-serif;
+   font-weight: 100;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.fe-txt-box{
+    display: inline-block;
+padding: 9px 8px 9px 8px;
+line-height: 1;
+border-radius: 10px;
+color:  #088178;
+background-color: #fddde4
+}
+
 .nav{
-    background-color: rgb(195, 195, 195);
-    box-shadow: 0px -20px rgba(0,0,0.6) ;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    margin-top: 0%;
+align-items: center;
+justify-content: space-between;
+padding: 50px 80px;
+background: #E3E6F3;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+ z-index : 999;
+ position: sticky;
+ top: 0;
+ left: 0;
+    
 }
 .img_nav{
     display: flex;
+    
 }
 #att_nav{
     display: flex;
@@ -22,12 +64,138 @@ body{
     color: black;
     list-style: none;
     padding-left: 20px;
-    
+    padding-right: 10px; 
 }
 #att_nav li a{
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    font-family: "Michroma", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
+  transition: 0.5s ease;
+  
+}
+#att_nav li a:hover,
+#att_nav li a.active{
+    color: #088178; ;
+}
+
+/* hero sec*/
+.hero_text{
+    padding-left: 100px;
+  
+}
+@import url(<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Michroma&display=swap" rel="stylesheet">);
+.h1_1{
+    font-size: 100px;
+font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+@import url(<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">);
+.h4_1{
+    font-size: 30px;
+    font-weight: 50;
+font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 10px ;
+}
+.p_1{
+    font-size: 20px;
+    font-family:  "Michroma", sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.spn_1{
+    color: #088178;
+}
+
+.hero{
+    margin-top: 0%;
+    background-image: url(souces/hero4.png);
+    width: 100%;
+    height: 90vh;
+    background-position: top 25% right 0%;
+    background-size: cover;
+      display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+   
+}
+.bt_1{
+    background-image: url(souces/button.png);
+    background-color: transparent;
+
+color: #088178;
+border: 0;
+padding: 14px 80px 14px 65px;
+background-repeat: no-repeat;
+cursor: pointer;
+font-weight: 700;
+font-size: 15px;
+}
+/*feature*/
+#feature .fe-1{
+    width: 150px;
+text-align: center;
+padding: 25px 15px;
+box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+border: 1px solid #cce7d0;
+border-radius: 20px;
+}
+#fe-1-img{
+    width: 152px;
+}
+#fe-1-txt{
+   font-family: "Gruppo", sans-serif;
+   font-weight: 100;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+#feature .fe-1:hover {
+box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#fe-1-img{
+width: 100%;
+margin-bottom: 10px;
+}
+
+#fe-1-txt {
+    display: inline-block;
+padding: 9px 8px 9px 8px;
+line-height: 1;
+border-radius: 10px;
+color:  #088178;
+background-color: #fddde4
+}
+#feature{
+    display: flex;
+align-items: center;
+justify-content: space-between ;
+
+}
+#fe-2-txt{
+    background-color: #cce7d0;
+}
+#fe-3-txt{
+    background-color: #f0c92f;
+}
+#fe-4-txt{
+    background-color: #ef6969;
+    color: white;
+}
+
+#fe-5-txt{
+    background-color: #f0c92f;
+    color: white;
+}
+#fe-6-txt{
+    background-color: #cce7d0;
+    color: white;
 }
