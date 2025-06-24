@@ -401,37 +401,34 @@ left: 20px;
     font-size: 30px;
 }
 
-#sm-banner {
-    padding-bottom: 40px;
-    gap: 20px;
+
+#sm-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.banner-box-1 {
-    float: left;
+#sm-banner .sm-banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
     background-image: url(souces/banner/b17.jpg);
-    width: 40%;
-    height: 40%;
+    min-width: 800px;
+    height: 50vh;
+    background-position: center;
     background-size: cover;
-    padding: 80px 80px;
-
+    padding: 30px
 
 }
-
-.banner-box-2 {
-    float: right;
-    background-image: url(souces/banner/b10.jpg);
-    width: 40%;
-    height: 40%;
-    background-size: cover;
-    padding: 80px 80px;
-
-
-
+#sm-banner .bannerbox2{
+    background-image: url(souces/banner/b10.jpg)
 }
 
 @import url(<link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">);
 
-.banner-box-1 h4 {
+#sm-banner h4 {
     color: white;
     font-family: "Lexend Zetta", sans-serif;
     font-weight: 100;
@@ -441,14 +438,14 @@ left: 20px;
 @import url(<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 );
 
-.banner-box-1 h1 {
+#sm-banner h1 {
     color: white;
     font-size: 50px;
     font-family: "Red Hat Display", sans-serif;
     padding: 5px 0px;
 }
 
-.banner-box-1 p {
+#sm-banner p {
     color: white;
     font-family: "Gruppo", sans-serif;
     padding-bottom: 10px;
@@ -461,13 +458,18 @@ left: 20px;
     text-decoration: none;
     background-color: transparent;
     padding: 10px 30px;
-    border-color: white;
+    border-color: rgb(0, 0, 0);
     border-radius: 10px;
 
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     transition: 0.5s;
     cursor: pointer;
+}
+.bxbt-1:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    background-color: #088178;
+    color: #ffffff;
 }
 
 .banner-box-2 h4 {
@@ -507,7 +509,10 @@ left: 20px;
 }
 
 #newsletter {
-
+   padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -652,4 +657,7 @@ font-family: "Righteous", sans-serif;
     border-radius: 10px;
     text-align: center;
     
+}
+#pageicon{
+    text-align: center;
 }
