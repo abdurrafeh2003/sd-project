@@ -661,3 +661,73 @@ font-family: "Righteous", sans-serif;
 #pageicon{
     text-align: center;
 }
+#prodetails{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+    
+   
+}
+
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+flex-basis: 24%;
+cursor: pointer;
+
+}
+
+
+#single-pro-image{
+    float: left;
+    width: 50%;
+    
+}
+#text-details{
+    float: right;
+    padding-left: 5px;
+}
+#text-details h6{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+#text-details h4{
+    font-size: 35px;
+    padding: 20px 0px;
+}
+#text-details h2{
+    font-size: 35px;
+    padding: 20px 0px;
+}
+#text-details span{
+    font-size: 23px;
+    
+}
+#text-details select{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    size: 20px;
+    background-color: #088178;
+    color: white;
+}
+#text-details button{
+    padding: 10px 20px;
+    background-color: #088178;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+#text-details input{
+    padding: 5px 10px;
+
+}
