@@ -67,6 +67,11 @@ body {
     display: flex;
 
 }
+.cart-icon{
+    width: 20px;
+    padding-left: 20px;
+}
+
 
 #att_nav {
     display: flex;
