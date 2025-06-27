@@ -31,7 +31,7 @@
 
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    
 </head>
 
 <body>
@@ -62,13 +62,13 @@
                     <img src="souces/products/f1.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="souces/products/f1.jpg" width="100%" class="small-img" alt="">
+                    <img src="souces/products/f2.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="souces/products/f1.jpg" width="100%" class="small-img" alt="">
+                    <img src="souces/products/f3.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="souces/products/f1.jpg" width="100%" class="small-img" alt="">
+                    <img src="souces/products/f4.jpg" width="100%" class="small-img" alt="">
                 </div>
             </div>
         </div>
@@ -87,15 +87,104 @@
             <input type="number" value="1">
             <button>Add To Cart</button>
             <h4>Product Details</h4>
-            <span>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per
+            <p>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per
                 sq. yd. <br>fabric constructed from 100% cotton, this classic fit preshrunk
                 jersey knit provides unmatched comfort with each wear. <br> Featuring a taped neck
                 and shoulder, and a seamless double-needle collar, and available in a range
-                of colors, it offers it all in the ultimate head-turning package .</span>
+                of colors, it offers it all in the ultimate head-turning package .</p>
         </div>
 
      </section>
-    
+     <section id="product1" class="section-p1">
+        <div id="pro-txt">
+            <h1 id="na-hed">Feature<span id="pro-h1-txt">Products</span></h1>
+            <h4 id="na-h4">Summer collection new mordern design</h4>
+        </div>
+
+        <div class="pro-container">
+            <div id="pro-1-img" class="pro">
+                <img src="souces/products/n1.jpg" alt="">
+
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="rating">
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                    </div>
+                    <h4 class="lin-col">$78</h4>
+                </div>
+                <div id="sho-icon" class="cart">
+                    <img src="souces/icons/shopping-cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div id="pro-1-img" class="pro">
+                <img src="souces/products/n2.jpg" alt="">
+
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="rating">
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                    </div>
+                    <h4 class="lin-col">$78</h4>
+                </div>
+                <div id="sho-icon" class="cart">
+                    <img src="souces/icons/shopping-cart.png" alt="">
+                </div>
+
+            </div>
+            <div id="pro-1-img" class="pro">
+                <img src="souces/products/n3.jpg" alt="">
+
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="rating">
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                    </div>
+                    <h4 class="lin-col">$78</h4>
+                </div>
+                <div id="sho-icon" class="cart">
+                    <img src="souces/icons/shopping-cart.png" alt="">
+                </div>
+
+            </div>
+            <div id="pro-1-img" class="pro">
+                <img src="souces/products/n4.jpg" alt="">
+
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="rating">
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                        <span class="star-example rating-star">★</span>
+                    </div>
+                    <h4 class="lin-col">$78</h4>
+                </div>
+                <div id="sho-icon" class="cart">
+                    <img src="souces/icons/shopping-cart.png" alt="">
+                </div>
+                </section>
+
+
+   
 
     <section id="newsletter" class="section-p1">
         <div class="newstext">
@@ -162,6 +251,16 @@
         </div>
        
  </footer>
+  <script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+    for (var i = 0; i < smallimg.length; i++) {
+        smallimg[i].onclick = function () {
+            MainImg.src = this.src; // 'this' refers to the clicked small image
+        }
+    }
+</script>
+ <link rel="stylesheet" href="script.js">
 </body>
 
 </html>

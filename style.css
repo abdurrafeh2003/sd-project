@@ -696,29 +696,43 @@ cursor: pointer;
     float: right;
     padding-left: 5px;
 }
+@import url(<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">);
+@import url(<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">);
 #text-details h6{
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px 0px;
+    font-weight: 50;
+    font-family: "Red Hat Display", sans-serif;
 }
 #text-details h4{
     font-size: 35px;
     padding: 20px 0px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 300;
 }
 #text-details h2{
-    font-size: 35px;
+    font-size: 20px;
     padding: 20px 0px;
+    font-weight: 200;
+
 }
-#text-details span{
+@import url(<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">);
+#text-details p{
     font-size: 23px;
+    font-weight: 100;
+    font-family: "Karla", sans-serif;
+    color: #8d8d8d;
     
 }
 #text-details select{
+    display: block;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
     size: 20px;
     background-color: #088178;
     color: white;
+    margin-bottom: 5px;
 }
 #text-details button{
     padding: 10px 20px;
@@ -728,6 +742,11 @@ cursor: pointer;
     border-radius: 5px;
 }
 #text-details input{
-    padding: 5px 10px;
+    width: 50px;
+height: 47px;
+padding-left: 5px;
+font-size: 16px;
+margin-right: 5px;
+border-radius: 5px;
 
 }
