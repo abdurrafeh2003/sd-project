@@ -817,4 +817,26 @@ border-radius: 5px;
 #register{
     padding: 50px 0px;
 }
+#blopage-txt{
+    text-align: center;
+    padding: 80px;
+    font-family: "Fredoka", sans-serif;
+
+}
+#blopage-txt h1{
+    padding-bottom: 20px;
+}
+#blopage-txt a{
+    text-decoration: none;
+    border: #1a1a1a;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #088178;
+}
+#home-bttn:hover{
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1)
+    
+
+}
 
